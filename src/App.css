@@ -245,3 +245,19 @@ button {
   color: white;
   cursor: pointer;
 }
+
+/*-------heading--------*/
+.heading .heading-left i{
+  font-size: 30px;
+}
+.heading .heading-left h2{
+  font-size: 25px;
+  margin-top: 5px;
+}
+.heading .heading-left i,
+.heading .heading-left {
+  text-align: right;
+  color: grey;
+}
+
+/*-------heading--------*/
