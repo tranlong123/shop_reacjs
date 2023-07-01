@@ -3,10 +3,10 @@ import logo from "../../assets/images/logo.png"
 import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Search = (cartItem) => {
-  // window.addEventListener("scroll", function () {
-  //   const search = document.querySelector(".Search")
-  //   search.classList.toggle("active", this.window.scrollY > 100)
-  // })
+  window.addEventListener("scroll", function () {
+    const search = document.querySelector(".Search")
+    search.classList.toggle("active", this.window.scrollY > 100)
+  })
   return (
     <>
       <section className="Search">
