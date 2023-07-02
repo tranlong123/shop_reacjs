@@ -6,6 +6,7 @@ import Data from './compoments/flashDeals/Data';
 import { useState } from 'react';
 import Cart from './common/cart/Cart';
 import Sdata from './compoments/shop/Sdata';
+import Footer from './common/footer/Footer';
 
 function App() {
 
@@ -51,6 +52,7 @@ function App() {
             <Cart cartItem={cartItem} addToCart={addToCart} decreaseQty={decreaseQty} removeCart={removeCart}/>
           </Route>
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
