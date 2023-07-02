@@ -5,7 +5,7 @@ import TopCate from '../compoments/top/TopCate'
 import NewArrivals from '../compoments/newarrivals/NewArrivals'
 import Discount from '../compoments/discount/Discount'
 import Shop from '../compoments/shop/Shop'
-import Annu from '../compoments/annocument/Annu'
+import Wrapper from '../compoments/wrapper/Wrapper'
 
 const Pages = ({ productItems, cartItem, addToCart, shopItems }) => {
   return (
@@ -16,7 +16,7 @@ const Pages = ({ productItems, cartItem, addToCart, shopItems }) => {
       <NewArrivals />
       <Discount />
       <Shop  shopItems={shopItems} addToCart={addToCart} />
-      <Annu/>
+      <Wrapper/>
     </>
   )
 }
