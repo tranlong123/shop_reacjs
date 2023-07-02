@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css'
 const Footer = () => {
   return (
-    <Footer>
+    <footer>
         <div className="container grid2">
         <div className='box'>
             <h2>About Us</h2>
@@ -33,7 +33,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-    </Footer>
+    </footer>
   )
 }
 
