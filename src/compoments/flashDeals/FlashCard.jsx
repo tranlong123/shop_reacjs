@@ -40,9 +40,9 @@ const FlashCard = ({ productItems, addToCart }) => {
     <>
       <Slider {...settings}>
         {
-          productItems.map((productItem) => {
+          productItems.map((productItem, index) => {
             return (
-              <div className="box">
+              <div className="box" key={index}>
                 <div className="product mtop">
                   <div className="img">
                     <span className="discount">{productItem.discount}% Off</span>
@@ -64,7 +64,7 @@ const FlashCard = ({ productItems, addToCart }) => {
                     </div>
                     <div className="price">
                       <h4>{productItem.price}$</h4>
-                      <button onClick={()=> addToCart(productItem)}>
+                      <button onClick={() => addToCart(productItem)} >
                         <i className='fa fa-plus'></i>
                       </button>
                     </div>
